@@ -151,9 +151,10 @@ const Home: NextPage = () => {
           <img src='/images/ilustrasi.png' alt="as" className='mx-auto transition w-96 hover:scale-110' />
         </div>
         <div className='w-3/4 px-5'>
-          <p className='mb-5 text-3xl font-medium text-center'>
+          <p className='mb-3 text-3xl font-medium text-center'>
             Kenapa harus pake Aplikasi Healing Time..?
           </p>
+          {/* <img src="/images/mockup/splash.png " alt="wa" className='w-72' /> */}
           <p className='text-justify indent-10 px-10'>
             Nikmati pengalaman berbeda di setiap tempat yang Anda kunjungi di garut, temukan petualangan baru dan terjangkau dengan menggunakan aplikasi <b><q>Healing Time</q></b>. Karna kami menyediakan fitur fitur dibawah yang  tentunya dapat membantu Anda untuk menemukan tempat yang cocok untuk healing.
           </p>
@@ -206,11 +207,31 @@ const Home: NextPage = () => {
       </div> */}
 
 
-      <div>
+      {/* <div>
         <img src='/images/plan.png' alt="as" className='w-5/6 px-16 mx-auto transition' />
-      </div>
+      </div> */}
 
-      <div className='w-full h-screen bg-gradient-to-b from-white to-purple'>
+      <div className='w-full h-screen bg-gradient-to-b from-white to-purple flex justify-evenly text-center pt-28 text-white font-kalam font-bold'>
+
+        <div className='space-y-3'>
+          <img src="/images/mockup/splash.png " alt="wa" className='w-56 transition hover:scale-110' />
+          <p>---</p>
+        </div>
+
+        <div className='space-y-3'>
+          <img src="/images/mockup/detailwisata.png " alt="wa" className='w-56 transition hover:scale-110' />
+          <p>Detail Wisata</p>
+        </div>
+
+        <div className='space-y-3'>
+          <img src="/images/mockup/sewa.png " alt="wa" className='w-56 transition hover:scale-110' />
+          <p>Sewa Alat-alat</p>
+        </div>
+
+        <div className='space-y-3'>
+          <img src="/images/mockup/tour.png " alt="wa" className='w-56 transition hover:scale-110' />
+          <p>Tour Guid</p>
+        </div>
 
       </div>
 
@@ -222,30 +243,32 @@ const Home: NextPage = () => {
           </path>
         </svg>
 
-        <div className='flex w-full -mt-28'>
+        <div className='flex w-full -mt-28 space-x-10 px-10'>
           <div className='w-2/5'>
             <img src='/images/logo.png' alt="as" className='w-1/2 px-16 mx-auto transition' />
             {/* <p className='text-xl font-bold text-center font-kalam'> Healing Time</p> */}
           </div>
 
-          <div className='w-1/5 space-y-5 font-kalam'>
+          <div className='w-1/5 font-kalam'>
             <p className="text-xl font-bold">Fitur</p>
-            <ul className="space-y-2">
-              <li>Detail Wisata</li>
-              <li>Detail Fasilitas</li>
-              <li>Sewa Alat</li>
-              <li>Sewa Tour Guide</li>
+            <div className='w-full h-1 rounded-full bg-purple pr-8'></div>
+            <ul className="space-y-2 pt-5">
+              <li className='list-disc'>Detail Wisata</li>
+              <li className='list-disc'>Detail Fasilitas</li>
+              <li className='list-disc'>Sewa Alat</li>
+              <li className='list-disc'>Sewa Tour Guide</li>
             </ul>
           </div>
 
-          <div className='w-1/5 space-y-5 font-kalam'>
+          <div className='w-1/5 font-kalam'>
             <p className="text-xl font-bold">Sosial Media</p>
-            <div className='block space-y-2'>
+            <div className='w-full h-1 rounded-full bg-purple pr-3'></div>
+            <div className='block space-y-2 pt-5'>
               <div className='hover:text-purple group'>
                 <div className='group-hover:translate-x-3 flex items-center space-x-3 transition-all'>
                   <img src="/icon/ig.png " alt="wa" className='w-5' />
                   <Link href="">
-                    <a className='block transition-all'>healingtime.fficial</a>
+                    <a className='block transition-all'>healingtime.official</a>
                   </Link>
                 </div>
               </div>
@@ -254,7 +277,7 @@ const Home: NextPage = () => {
                 <div className='group-hover:translate-x-3 flex items-center space-x-3 transition-all'>
                   <img src="/icon/facebook.png " alt="wa" className='w-5' />
                   <Link href="">
-                    <a className='block transition-all'>healingtime.fficial</a>
+                    <a className='block transition-all'>healingtime.official</a>
                   </Link>
                 </div>
               </div>
@@ -263,7 +286,7 @@ const Home: NextPage = () => {
                 <div className='group-hover:translate-x-3 flex items-center space-x-3 transition-all'>
                   <img src="/icon/youtube.png " alt="wa" className='w-5' />
                   <Link href="">
-                    <a className='block transition-all'>healingtime.fficial</a>
+                    <a className='block transition-all'>healingtime.official</a>
                   </Link>
                 </div>
               </div>
@@ -272,9 +295,10 @@ const Home: NextPage = () => {
 
 
 
-          <div className='w-1/5 space-y-5 font-kalam'>
+          <div className='w-1/5 font-kalam'>
             <p className="text-xl font-bold">Kontak</p>
-            <div className='block space-y-2'>
+            <div className='w-full h-1 rounded-full bg-purple pr-3'></div>
+            <div className='block space-y-2 pt-5'>
               <div className='hover:text-purple group'>
                 <div className='group-hover:translate-x-3 flex items-center space-x-3 transition-all'>
                   <img src="/icon/email.png " alt="wa" className='w-5' />
@@ -287,7 +311,7 @@ const Home: NextPage = () => {
               <div className='hover:text-purple group'>
                 <div className='group-hover:translate-x-3 flex items-center space-x-3 transition-all'>
                   <img src="/icon/wa.png " alt="wa" className='w-5' />
-                  <Link href="">
+                  <Link href=" https://wa.me/081212499612">
                     <a className='block transition-all'>+6281 212 499 612</a>
                   </Link>
                 </div>
