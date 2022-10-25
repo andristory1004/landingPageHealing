@@ -38,14 +38,14 @@ const Home: NextPage = () => {
             <Link href="">
               <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Home</a>
             </Link>
-            <Link href="">
-              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>About Us</a>
+            <Link href="#tentang">
+              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Tentang</a>
             </Link>
-            <Link href="">
-              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Feature</a>
+            <Link href="#fitur">
+              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Fitur</a>
             </Link>
-            <Link href="">
-              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Contact</a>
+            <Link href="#kontak">
+              <a className='flex-wrap transition hover:text-yellow hover:scale-125'>Kontak</a>
             </Link>
           </div>
           <div className=''>
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
 
 
 
-      <div className='px-10'>
+      <div className='px-10' id='tentang'>
         <div className='flex items-center w-full'>
           <div className='w-2/5 px-5 font-kalam'>
             <p className='mb-10 text-4xl font-medium text-center'>
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
           </div>
           <div className='w-3/5 px-5 w- h-fit font-kalam'>
             <div className='justify-center -ml-16 space-y-3 text-center'>
-              <img src='/images/leuwijurig.jpg' alt="as" className='w-1/3 mx-auto transition rounded-full hover:scale-110' />
+              <img src='/images/leuwijurig.jpg' alt="leuwi jurig" className='w-1/3 mx-auto transition rounded-full hover:scale-110' />
               <p>Wisata Air Leuwi Jurig</p>
             </div>
             <div className='space-y-3 text-center'>
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className='flex items-center w-full px-10 mt-32 text-blackh-fit font-kalam'>
+      <div className='flex items-center w-full px-10 mt-32 text-blackh-fit font-kalam' id='fitur'>
         <div className='w-1/3'>
           <img src='/images/ilustrasi.png' alt="as" className='mx-auto transition w-96 hover:scale-110' />
         </div>
@@ -295,7 +295,7 @@ const Home: NextPage = () => {
 
 
 
-          <div className='w-1/5 font-kalam'>
+          <div className='w-1/5 font-kalam' id='kontak'>
             <p className="text-xl font-bold">Kontak</p>
             <div className='w-full h-1 rounded-full bg-purple pr-3'></div>
             <div className='block space-y-2 pt-5'>
