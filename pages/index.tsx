@@ -124,7 +124,7 @@ const Home: NextPage = () => {
               Aplikasi <b><q>Healing Time</q></b> merupakan sebuah aplikasi yang menyediakan berbagai macam detail wisata yang ada di <b>Garut</b>, baik itu wisata air, wisata kuliner sampai ke wisata jeep yang ada di Garut.
             </p>
             <p className='text-justify indent-10'>
-              Selain itu aplikasi <q>Healing Time</q> juga menyediakan wadah untuk alat alat yang bisa di sewakan, muai dari kamera, alat kemping, alat renang, dan masih banyak lagi pilihan alat lainnya.
+              Selain itu aplikasi <q>Healing Time</q> juga menyediakan wadah bagi siapa saja untuk menyewakan alat alat yang biasanya di butuhkan di tempat wisata, muai dari kamera, alat kemping, alat renang, dan masih banyak lagi pilihan alat lainnya.
             </p>
           </div>
           <div className='w-3/5 px-5 w- h-fit font-kalam'>
@@ -147,24 +147,45 @@ const Home: NextPage = () => {
       </div>
 
       <div className='flex items-center w-full px-10 mt-32 text-blackh-fit font-kalam'>
-        <div className='w-1/2'>
+        <div className='w-1/3'>
           <img src='/images/ilustrasi.png' alt="as" className='mx-auto transition w-96 hover:scale-110' />
         </div>
-        <div className='w-1/2 px-5'>
-          <p className='mb-10 text-3xl font-medium text-center'>
+        <div className='w-3/4 px-5'>
+          <p className='mb-5 text-3xl font-medium text-center'>
             Kenapa harus pake Aplikasi Healing Time..?
           </p>
-          <p className='text-justify indent-10'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita illo nisi distinctio est nemo odio aspernatur neque. Magni perferendis assumenda cupiditate vitae rerum ex tenetur mollitia harum, eum quisquam officia.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, dolores ratione incidunt rem repellendus qui? Distinctio odio optio tempora perspiciatis quis commodi error rem quibusdam ducimus impedit et, quae vel!
+          <p className='text-justify indent-10 px-10'>
+            Nikmati pengalaman berbeda di setiap tempat yang Anda kunjungi di garut, temukan petualangan baru dan terjangkau dengan menggunakan aplikasi <b><q>Healing Time</q></b>. Karna kami menyediakan fitur fitur dibawah yang  tentunya dapat membantu Anda untuk menemukan tempat yang cocok untuk healing.
           </p>
+
+          <div className='flex justify-center space-x-8 text-center mt-14 font-bold'>
+            <div className='space-y-3'>
+              <img src='/images/detail.png' alt="as" className='transition h-24 hover:scale-110 mx-auto' />
+              <p>Informasi Detail Wisata</p>
+            </div>
+
+            <div className='space-y-3'>
+              <img src='/images/fasilitas.png' alt="as" className='transition h-24 hover:scale-110 mx-auto' />
+              <p>Informasi Fasilitas Wisata</p>
+            </div>
+
+            <div className='space-y-3'>
+              <img src='/images/ticket.png' alt="as" className='transition h-24 hover:scale-110 mx-auto' />
+              <p>CheckOut Tiket Masuk</p>
+            </div>
+
+            <div className='space-y-3'>
+              <img src='/images/rental.png' alt="as" className='transition h-24 hover:scale-110 mx-auto' />
+              <p>Sewa Alat-alat</p>
+            </div>
+          </div>
         </div>
       </div>
 
 
 
 
-      <div className='w-full px-10 text-blackh-fit font-kalam'>
+      {/* <div className='w-full px-10 text-blackh-fit font-kalam'>
         <p className='mb-10 text-4xl font-medium text-center'>
           Fitur
         </p>
@@ -182,7 +203,7 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       <div>
